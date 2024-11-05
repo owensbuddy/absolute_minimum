@@ -1,0 +1,127 @@
+/Users/buddy/Desktop/School/effective-adventure/effective-adventure
+config
+	config.py
+	show_files_db.py
+	spider.py
+data
+	old
+		recent_comments.json
+		recent_posts.json
+	comments_new.csv
+	dir_tree.txt
+	inspect_json.py
+	most_recent_post_with_comments.json
+	recent_comments.json
+db
+	WGU_Reddit.db
+	inspect_db.py
+	modify_db.py
+dev
+	dev_plan.txt
+	project_requirements.txt
+	schema.txt
+notebooks
+	data_analysis.ipynb
+scripts
+	db
+		reddit.db
+	old
+		fetch_all_comments copy.py
+		fetch_comments_1day.py
+		fetch_new_posts.py
+		fetch_new_posts_comments.py
+	fetch_all_comments.py
+	fetch_comments_new.py
+	initialize_database.py
+	update_database.py
+.gitignore
+LICENSE
+README.md
+reddit_scraper.log
+requirements.txt
+setup.py
+
+Database Structure:
+Connected to SQLite database at /Users/buddy/Desktop/School/effective-adventure/effective-adventure/db/WGU_Reddit.db
+
+Table: subreddits
+Columns:
+ - id (Type: INTEGER)
+ - subreddit (Type: TEXT)
+ - subreddit_id (Type: TEXT)
+ - title (Type: TEXT)
+ - description (Type: TEXT)
+ - url (Type: TEXT)
+ - created_utc (Type: REAL)
+ - subscriber_count (Type: INTEGER)
+ - active_user_count (Type: INTEGER)
+ - num_posts (Type: INTEGER)
+Number of rows: 52
+Sample row:
+ - (1, 'WGU', '2se63', 'Western Governors University', 'Place for Western Governors University students, faculty and alumni.', '/r/WGU/', 1301070589.0, 129480, 85, 1306)
+
+Table: users
+Columns:
+ - id (Type: INTEGER)
+ - username (Type: TEXT)
+ - num_posts (Type: INTEGER)
+Number of rows: 6494
+Sample row:
+ - (1, 'jess_whoo', 1)
+
+Table: posts
+Columns:
+ - id (Type: INTEGER)
+ - post_id (Type: TEXT)
+ - subreddit (Type: TEXT)
+ - title (Type: TEXT)
+ - score (Type: INTEGER)
+ - author (Type: TEXT)
+ - created_utc (Type: REAL)
+ - num_comments (Type: INTEGER)
+ - selftext (Type: TEXT)
+ - url (Type: TEXT)
+ - permalink (Type: TEXT)
+ - comments_fetched (Type: INTEGER)
+ - last_comment_fetch (Type: REAL)
+Number of rows: 11976
+Sample row:
+ - (1, '1giy1he', 'WGU', 'Virtual SHRM Group Thoughts', 3, 'jess_whoo', 1730670044.0, 1, 'What do BABSHR students think about the poor leadership shown by this chapter??', 'https://www.reddit.com/r/WGU/comments/1giy1he/virtual_shrm_group_thoughts/', '/r/WGU/comments/1giy1he/virtual_shrm_group_thoughts/', 0, 1730783653.946021)
+
+Table: comments
+Columns:
+ - id (Type: INTEGER)
+ - comment_id (Type: TEXT)
+ - post_id (Type: TEXT)
+ - author (Type: TEXT)
+ - content (Type: TEXT)
+ - upvotes (Type: INTEGER)
+ - created_utc (Type: REAL)
+ - ratio (Type: REAL)
+Number of rows: 90820
+Sample row:
+ - (1, 'lvgx9fq', '1gjxzlj', 'chewedgummiebears', "That was one cert test I didn't like studying or taking the test for. It was a lot of repackaged jargon and invented principles, much like the CompTIA certs.", 2, 1730779297.0, 1.0)
+
+Table: sqlite_sequence
+Columns:
+ - name (Type: )
+ - seq (Type: )
+Number of rows: 1
+Sample row:
+ - ('comments_new', 7)
+
+Table: comments_new
+Columns:
+ - id (Type: INTEGER)
+ - comment_id (Type: TEXT)
+ - post_id (Type: TEXT)
+ - parent_id (Type: TEXT)
+ - author (Type: TEXT)
+ - content (Type: TEXT)
+ - upvotes (Type: INTEGER)
+ - created_utc (Type: REAL)
+ - ratio (Type: REAL)
+Number of rows: 7
+Sample row:
+ - (1, 'lvh9bg6', '1ggt6p0', '1ggt6p0', 'RoxieTheBookSlayer', "Business Administration Accounting\xa0\nAlready passed my first class and have my second OA tomorrow. I don't know why I waited so long to return to college. 🤷🏻\u200d♀️", 1, 1730784545.0, 0.008403361344537815)
+Database connection closed.

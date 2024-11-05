@@ -1,0 +1,59 @@
+Database Schema
+
+Table: subreddits
+
+	•	id (INTEGER): Primary key
+	•	subreddit (TEXT): Subreddit name
+	•	subreddit_id (TEXT): Unique subreddit ID
+	•	title (TEXT): Subreddit title
+	•	description (TEXT): Subreddit description
+	•	url (TEXT): Subreddit URL
+	•	created_utc (REAL): Creation date (Unix timestamp)
+	•	subscriber_count (INTEGER): Number of subscribers
+	•	active_user_count (INTEGER): Number of active users
+	•	num_posts (INTEGER): Total posts in subreddit
+
+Table: users
+
+	•	id (INTEGER): Primary key
+	•	username (TEXT): Reddit username
+	•	num_posts (INTEGER): Number of posts by user
+
+Table: posts
+
+	•	id (INTEGER): Primary key
+	•	post_id (TEXT): Unique post ID
+	•	subreddit (TEXT): Subreddit the post belongs to
+	•	title (TEXT): Post title
+	•	score (INTEGER): Post score (upvotes)
+	•	author (TEXT): Post author
+	•	created_utc (REAL): Post creation date (Unix timestamp)
+	•	num_comments (INTEGER): Number of comments
+	•	selftext (TEXT): Post content
+	•	url (TEXT): Post URL
+	•	permalink (TEXT): Post permalink
+	•	comments_fetched (INTEGER): Indicates if comments are fetched (0 or 1)
+	•	last_comment_fetch (REAL): Timestamp of last comment fetch
+
+Table: comments
+
+	•	id (INTEGER): Primary key
+	•	comment_id (TEXT): Unique comment ID
+	•	post_id (TEXT): Post ID the comment belongs to
+	•	author (TEXT): Comment author
+	•	content (TEXT): Comment text
+	•	upvotes (INTEGER): Comment score (upvotes)
+	•	created_utc (REAL): Comment creation date (Unix timestamp)
+	•	ratio (REAL): Comment-to-post score ratio
+
+Table: comments_new
+
+	•	id (INTEGER): Primary key
+	•	comment_id (TEXT): Unique comment ID
+	•	post_id (TEXT): Post ID the comment belongs to
+	•	parent_id (TEXT): ID of parent comment or post
+	•	author (TEXT): Comment author
+	•	content (TEXT): Comment text
+	•	upvotes (INTEGER): Comment score (upvotes)
+	•	created_utc (REAL): Comment creation date (Unix timestamp)
+	•	ratio (REAL): Comment-to-parent score ratio

@@ -1,0 +1,75 @@
+Project Requirements:
+Part 1 Project Proposal
+
+	1.	Research Question/Problem Definition: Define a clear problem or need. Example: “How can we optimize user engagement in a university subreddit?”
+	2.	Published Works: Identify three sources (e.g., studies, white papers) that inform your approach, such as studies on social media analytics or engagement metrics. Note how each informs your methods or tools.
+	3.	Data Solution Summary: Detail your proposed solution, including:
+	•	Database structure: Tables for posts, users, engagement metrics, etc.
+	•	Data processing flow: ETL (Extract, Transform, Load) pipeline for data ingestion and cleaning.
+	•	Analysis plan: Metrics for user engagement or predictive modeling for post success.
+
+Part 2 Project Plan
+
+	1.	Goals/Objectives:
+	•	Set specific, measurable goals (e.g., increase engagement by 10%).
+	•	Deliverables: Data model, scripts for data extraction/cleaning, and an analytics dashboard or report.
+	2.	Scope:
+	•	Define what’s included (e.g., Reddit and YouTube data) and excluded (e.g., sentiment analysis).
+	3.	Project Methodology:
+	•	Example Methodology: CRISP-DM or Agile.
+	•	Steps:
+	•	Planning: Outline objectives, goals, and timelines.
+	•	Data Preparation: Define ETL scripts and data validation.
+	•	Analysis: Choose analysis method(s).
+	•	Evaluation: Plan regular evaluations of each milestone.
+	•	Deployment: Finalize data and analytics outputs.
+	4.	Timeline & Milestones:
+	•	Break down tasks (e.g., Week 1: database schema design, Week 2: data cleaning script).
+	•	Include start and end dates for each milestone.
+	5.	Resources and Costs:
+	•	Include software, hardware, and time (e.g., “pandas library for data handling, costs: none”).
+	6.	Criteria for Success:
+	•	Define measurable outcomes, such as database completeness, data quality, and meaningful insights.
+
+Data Analytics Solution
+
+	1.	Hypothesis:
+	•	Example: “Higher posting frequency increases user engagement.”
+	2.	Analytical Method:
+	•	Choose and justify one:
+	•	Descriptive: Summarize metrics (e.g., average engagement per post).
+	•	Predictive: Forecast engagement based on past posts.
+	•	Prescriptive: Recommend posting times for maximum engagement.
+	3.	Tools and Environment:
+	•	Identify software (e.g., Python, SQL).
+	•	Include libraries (e.g., pandas, SQLAlchemy, or scikit-learn).
+	4.	Evaluation Metrics:
+	•	Statistical Significance: Metrics like p-value or confidence intervals to assess data reliability.
+	•	Practical Significance: Track improvements in key metrics (e.g., a 10% increase in subreddit engagement).
+	5.	Data Visualization:
+	•	Choose visualization tools (e.g., matplotlib, Seaborn).
+	•	Example visuals: user engagement over time, top users, post interactions.
+
+Dataset Description
+
+	1.	Data Source:
+	•	Identify sources (e.g., Reddit API for subreddit data, YouTube for video metadata).
+	2.	Data Collection Method:
+	•	Outline ETL scripts (e.g., fetch_post.py for Reddit post data).
+	•	Specify collection frequency (e.g., daily, weekly).
+	3.	Data Quality Assessment:
+	•	Detail steps for cleaning, e.g., handling missing values or removing duplicates.
+	4.	Data Governance and Compliance:
+	•	Address user data privacy (e.g., anonymize usernames).
+	•	Document policies for data handling, privacy, and security.
+	5.	Precautions:
+	•	Ensure compliance with data privacy laws (e.g., GDPR).
+	•	Implement secure storage and encrypted data handling.
+
+Documentation and Professional Communication
+
+	1.	Source Attribution:
+	•	Keep a reference list and inline citations in all code or reports.
+	2.	Clarity and Professionalism:
+	•	Review for spelling, grammar, and clarity.
+	•	Organize outputs, labels, and documentation for easy readability.

@@ -1,75 +1,103 @@
-Development Plan
+
+Immediate to-do: 
+		Subreddit Data Collection: Complete fetch_subreddit_info.py for subreddit attributes.
+		User Data Collection: Finish fetch_user_info.py to gather user account and moderation details.
+		ETL Process: Finalize ETL steps for consistency and accuracy in data structure.
+
+
+
+
+dev_guide.txt
+
+WGU Reddit Social Media Management Tool Development Guide
 
 Project Overview
 
-The goal of this project is to create comprehensive dashboards that visualize Reddit data related to your school. Data will be gathered from subreddits, users, posts, and comments, with weekly updates over the last month. The objective is to develop methods for analyzing comment scores relative to post scores and ranking comments meaningfully across different posts and subreddits.
+This project manages and analyzes discussions about WGU across 52 WGU-related subreddits. The database stores essential data about posts, comments, users, and subreddits, enabling data retrieval for insights and allowing WGU to better understand community engagement.
 
-Objectives
+Goals
 
-	1.	Data Collection Strategy
-	•	Define Date Ranges to Avoid Overlap: Implement dynamic date ranges to avoid duplicate data collection for posts and comments.
-	•	Example: First week, fetch last 7 days; second week, fetch 7-14 days, etc.
-	•	Efficient Fetching: Only retrieve posts and comments from specified date ranges (e.g., 1-2 weeks back) without re-fetching recent data.
-	2.	Data Normalization and Analysis
-	•	Comment Score Comparison:
-	•	Develop methods to compare comment scores relative to post scores.
-	•	Score Normalization:
-	•	Account for variability across subreddit activity and post popularity.
-	3.	Database Enhancement
-	•	Schema Updates:
-	•	Ensure schema supports new calculations and fields for analytics.
-	•	Additional Fields:
-	•	Include fields for normalized scores, z-scores, and percentile ranks.
-	4.	Dashboard Development
-	•	Interactive Visualizations:
-	•	Create dashboards for subreddits, users, posts, and comments, highlighting key metrics.
-	•	Engagement Metrics:
-	•	Show metrics like comment significance, post popularity, and user activity.
-	5.	Tools and Technologies
-	•	Python Libraries:
-	•	Select libraries for data processing, storage, and visualization.
-	•	Dashboard Framework:
-	•	Choose a framework suitable for real-time data representation.
+	1.	Establish a comprehensive database to store relevant Reddit data across the following tables:
+	•	Subreddits: Stores details about each WGU-related subreddit.
+	•	Users: Contains user information, including moderation activity.
+	•	Posts: Stores post data, including post ID, subreddit, title, score, author, created date, comments count, and content.
+	•	Comments: Contains hierarchical comment data, with a parent_id column to keep nested replies.
+	2.	Set up main scripts to automate data retrieval, updates, and inspection:
+	•	initialize_database.py: Defines tables and sets up the database schema.
+	•	update_database.py: Updates the database daily with recent posts and comments.
+	•	fetch_subreddit_info.py: Collects subreddit-specific data like subscriber count, active users, and description.
+	•	fetch_user_info.py: Gathers user details, including moderator roles and user metrics.
+	•	show_files_db.py: Outputs the database structure and file trees in a condensed format suitable for sharing.
+	3.	Implement data categorization for posts, allowing analysis by topic. Initially, categorization will be manual, with machine learning-based categorization planned for future versions.
+	4.	Develop a dashboard view for each table (posts, comments, users, subreddits), starting with basic metrics and expanding as needed.
 
-Data Analysis and Metrics
+Database Setup and Structure
 
-	1.	Normalize Comment Scores Relative to Post Scores
-	•	Comment-to-Post Score Ratio:
-	•	Formula:
+	1.	Database Initialization
+	•	Create the SQLite database and set up tables as outlined under “Goals.”
+	•	Script: initialize_database.py to handle database creation, table setup, and schema verification.
+	•	Status: Done
+	2.	Comments Table Issue
+	•	The original comments table design mistakenly used post_id instead of parent_id, causing comments and replies to be flattened. To address this:
+	•	New Table: A corrected table, comments_new, now maintains a nested comment structure.
+	•	Updated Scripts: All scripts now use comments_new to keep comments properly nested.
+	•	Status: Done
+	3.	Subreddit Moderators
+	•	Moderators: Gather moderator information for each subreddit, adding these users to the Users table with a column for subreddits_moderated. If necessary, create a moderators table to link users to subreddits they moderate.
+	•	Status: To Do
 
-\text{Normalized Score} = \frac{\text{Comment Score}}{\text{Post Score} + \epsilon}
+Data Retrieval and Collection
 
-	•	Purpose: Measures comment significance relative to the post’s popularity.
-	•	Considerations:
-	•	Use a small constant (\epsilon) to avoid division by zero.
-	•	Handle negative post scores appropriately.
-	•	Z-Score Normalization:
-	•	Formula:
+	1.	Data Sources
+	•	Data is collected from Reddit using two methods:
+	•	Posts Only: For general data on posts within each subreddit.
+	•	Posts and Comments: For a detailed view, including nested discussions and user interactions within each post.
+	2.	Data Collection Scripts
+	•	Daily Update Script: update_database.py
+	•	Run this script daily to retrieve the latest posts and comments across the 52 subreddits and update the database.
+	•	Status: Done
+	•	Subreddit Data Script: fetch_subreddit_info.py
+	•	Collects data on subreddit attributes like subscriber count, active users, and description.
+	•	Status: To Do
+	•	User Data Script: fetch_user_info.py
+	•	Collects user data, including account activity and list of moderated subreddits.
+	•	Status: To Do
+	•	Database Inspection Script: show_files_db.py
+	•	Outputs the current database structure and file tree in a condensed, shareable format, enabling quick overviews.
+	•	Status: Done
+	3.	Data Collection Flow
+	•	ETL (Extract, Transform, Load):
+	•	Extract data from the Reddit API.
+	•	Transform data to ensure consistency and accuracy (e.g., ensure the nested structure in comments_new).
+	•	Load data into the appropriate tables in the SQLite database.
+	•	Status: In Progress
 
-z = \frac{X - \mu}{\sigma}
+Dashboard Development
 
-	•	Variables:
-	•	X: Comment score
-	•	\mu: Mean comment score in subreddit
-	•	\sigma: Standard deviation of comment scores in subreddit
-	•	Purpose: Standardizes scores for fair comparison within subreddits.
-	2.	Standardize Across Subreddits
-	•	Percentile Ranks:
-	•	Purpose: Indicates the standing of a comment within its subreddit.
-	•	Implementation: Calculate percentile ranks for each subreddit’s comment scores.
-	•	Weighted Scores:
-	•	Formula:
+	1.	Dashboard Views
+	•	Each table (subreddits, users, posts, comments) requires a dashboard view for analysis. Start with simple metrics, then expand to more detailed insights:
+	•	Subreddits View: Track subscriber count, active users, and post volume over time.
+	•	Users View: Show top contributors, frequency of posts/comments, and moderation activity.
+	•	Posts View: Display engagement metrics, including categorization.
+	•	Comments View: Analyze nested comments and replies per post.
+	•	Status: To Do
+	2.	Categorization of Posts
+	•	Implement initial manual categorization of posts by topic.
+	•	Plan for future categorization using machine learning techniques to automate topic recognition.
+	•	Status: In Progress (Manual); Future Work (Machine Learning)
 
-\text{Weighted Score} = \alpha \times \text{Normalized Comment Score} + \beta \times \text{Additional Factors}
+Development To-Do List
 
-	•	Purpose: Combines metrics like comment length, author reputation, and sentiment scores into a single rank.
-
-Database Enhancements
-
-	1.	Update Database Schema
-	•	Fields for Analysis:
-	•	Comments Table: Add normalized_score, z_score, percentile_rank.
-	•	Subreddits Table: Include mean and standard deviation fields for comment scores.
-	2.	Create Views for Analysis
-	•	comment_post_view: A view combining comments and posts for analysis.
-	•	subreddit_stats_view: A view for aggregated statistics at the subreddit level.
+	•	Database Initialization: Complete — verified structure, setup, and schema with initialize_database.py.
+	•	Comment Hierarchy Fix: Complete — added comments_new table with updated scripts for proper nesting.
+	•	Subreddit Moderators: Pending — gather and add moderator information to Users table or a separate moderators table if needed.
+	•	Daily Update Script: Complete — update_database.py for daily updates on posts and comments.
+	•	Data Collection Scripts:
+	•	Subreddit Data: Pending — finalize fetch_subreddit_info.py.
+	•	User Data: Pending — finalize fetch_user_info.py.
+	•	Database Inspection: Complete — show_files_db.py outputs structure and file tree.
+	•	ETL Process: In Progress — document and finalize Extract, Transform, Load steps.
+	•	Dashboard Development: Pending — create views for subreddits, users, posts, and comments.
+	•	Post Categorization:
+	•	Manual Categorization: In Progress.
+	•	Machine Learning Categorization: Future Work.
