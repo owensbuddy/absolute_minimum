@@ -1,0 +1,482 @@
+2024-11-05 04:37:55,128 - INFO - Configuration loaded successfully
+2024-11-05 04:37:55,128 - INFO - Reddit instance initialized successfully
+2024-11-05 04:37:55,130 - INFO - Database connection established at /Users/buddy/Desktop/School/effective-adventure/effective-adventure/db/WGU_Reddit.db
+2024-11-05 04:37:55,130 - INFO - Fetching comments from the last 1 days
+2024-11-05 04:37:55,197 - INFO - Starting to process 0 posts
+2024-11-05 04:37:55,197 - INFO - 
+Scraping completed:
+Total posts processed: 0
+Total comments added: 0
+Total time: 0.00 seconds
+2024-11-05 04:38:24,990 - INFO - Configuration loaded successfully
+2024-11-05 04:38:24,990 - INFO - Reddit instance initialized successfully
+2024-11-05 04:38:24,991 - INFO - Database connection established at /Users/buddy/Desktop/School/effective-adventure/effective-adventure/db/WGU_Reddit.db
+2024-11-05 04:38:24,991 - INFO - Fetching comments from the last 7 days
+2024-11-05 04:38:25,058 - INFO - Starting to process 0 posts
+2024-11-05 04:38:25,058 - INFO - 
+Scraping completed:
+Total posts processed: 0
+Total comments added: 0
+Total time: 0.00 seconds
+2024-11-05 04:42:58,702 - INFO - Configuration loaded successfully
+2024-11-05 04:42:58,702 - INFO - Reddit instance initialized successfully
+2024-11-05 04:42:58,703 - INFO - Database connection established at /Users/buddy/Desktop/School/effective-adventure/effective-adventure/db/WGU_Reddit.db
+2024-11-05 04:42:58,703 - INFO - Fetching comments from the last 7 days
+2024-11-05 04:42:58,772 - INFO - Database stats:
+2024-11-05 04:42:58,772 - INFO - Total posts: 11976
+2024-11-05 04:42:58,772 - INFO - Unfetched posts: 1692
+2024-11-05 04:42:58,772 - INFO - Recent posts: 550
+2024-11-05 04:42:58,774 - INFO - Sample of available posts:
+2024-11-05 04:42:58,774 - INFO - Post ID: 1gjxzlj, Created: 2024-11-04 22:54:57, Comments: 2, Last Fetch: 1730800453.258855
+2024-11-05 04:42:58,774 - INFO - Post ID: 1gjwkw4, Created: 2024-11-04 21:39:01, Comments: 29, Last Fetch: 1730800453.591129
+2024-11-05 04:42:58,774 - INFO - Post ID: 1gjw7l1, Created: 2024-11-04 21:19:46, Comments: 1, Last Fetch: 1730800461.195882
+2024-11-05 04:42:58,774 - INFO - Post ID: 1gjveka, Created: 2024-11-04 20:39:38, Comments: 1, Last Fetch: 1730800463.647457
+2024-11-05 04:42:58,775 - INFO - Post ID: 1gjv7nr, Created: 2024-11-04 20:30:06, Comments: 6, Last Fetch: 1730800462.180691
+2024-11-05 04:42:58,777 - INFO - Found 0 posts to process
+2024-11-05 04:42:58,777 - INFO - 
+Scraping completed:
+Total posts processed: 0
+Total comments added: 0
+Total time: 0.00 seconds
+2024-11-05 04:43:15,141 - INFO - Configuration loaded successfully
+2024-11-05 04:43:15,141 - INFO - Reddit instance initialized successfully
+2024-11-05 04:43:15,142 - INFO - Database connection established at /Users/buddy/Desktop/School/effective-adventure/effective-adventure/db/WGU_Reddit.db
+2024-11-05 04:43:15,142 - INFO - Fetching comments from the last 7 days
+2024-11-05 04:43:15,146 - INFO - Database stats:
+2024-11-05 04:43:15,146 - INFO - Total posts: 11976
+2024-11-05 04:43:15,146 - INFO - Unfetched posts: 1692
+2024-11-05 04:43:15,146 - INFO - Recent posts: 550
+2024-11-05 04:43:15,149 - INFO - Sample of available posts:
+2024-11-05 04:43:15,149 - INFO - Post ID: 1gjxzlj, Created: 2024-11-04 22:54:57, Comments: 2, Last Fetch: 1730800453.258855
+2024-11-05 04:43:15,149 - INFO - Post ID: 1gjwkw4, Created: 2024-11-04 21:39:01, Comments: 29, Last Fetch: 1730800453.591129
+2024-11-05 04:43:15,149 - INFO - Post ID: 1gjw7l1, Created: 2024-11-04 21:19:46, Comments: 1, Last Fetch: 1730800461.195882
+2024-11-05 04:43:15,149 - INFO - Post ID: 1gjveka, Created: 2024-11-04 20:39:38, Comments: 1, Last Fetch: 1730800463.647457
+2024-11-05 04:43:15,149 - INFO - Post ID: 1gjv7nr, Created: 2024-11-04 20:30:06, Comments: 6, Last Fetch: 1730800462.180691
+2024-11-05 04:43:15,152 - INFO - Found 0 posts to process
+2024-11-05 04:43:15,152 - INFO - 
+Scraping completed:
+Total posts processed: 0
+Total comments added: 0
+Total time: 0.00 seconds
+2024-11-05 04:46:37,871 - INFO - Configuration loaded successfully
+2024-11-05 04:46:37,871 - INFO - Reddit instance initialized successfully
+2024-11-05 04:46:37,872 - INFO - Database connection established at /Users/buddy/Desktop/School/effective-adventure/effective-adventure/db/WGU_Reddit.db
+2024-11-05 04:46:37,873 - INFO - Fetching comments from the last 7 days
+2024-11-05 04:46:37,940 - INFO - Database stats:
+2024-11-05 04:46:37,940 - INFO - Total posts: 11976
+2024-11-05 04:46:37,940 - INFO - Unfetched posts: 1692
+2024-11-05 04:46:37,940 - INFO - Recent posts: 550
+2024-11-05 04:46:37,943 - INFO - Processing comments for post ID: 1ggt6p0
+2024-11-05 04:46:40,178 - INFO - Total comments added: 300
+2024-11-05 04:50:24,884 - INFO - Configuration loaded successfully
+2024-11-05 04:50:24,884 - INFO - Reddit instance initialized successfully
+2024-11-05 04:50:24,885 - INFO - Database connection established at /Users/buddy/Desktop/School/effective-adventure/effective-adventure/db/WGU_Reddit.db
+2024-11-05 04:50:24,885 - INFO - Fetching comments from the last 2 days
+2024-11-05 04:50:24,949 - INFO - Database stats:
+2024-11-05 04:50:24,949 - INFO - Total posts: 11976
+2024-11-05 04:50:24,950 - INFO - Unfetched posts: 1692
+2024-11-05 04:50:24,950 - INFO - Recent posts: 138
+2024-11-05 04:50:24,952 - INFO - Processing comments for post ID: 1ggt6p0
+2024-11-05 04:50:27,051 - INFO - Total comments added: 7
+2024-11-05 05:06:01,282 - INFO - Configuration loaded successfully
+2024-11-05 05:06:01,283 - INFO - Reddit instance initialized successfully
+2024-11-05 05:06:01,283 - INFO - Database connection established at /Users/buddy/Desktop/School/effective-adventure/effective-adventure/db/WGU_Reddit.db
+2024-11-05 05:06:01,283 - INFO - Fetching comments from the last 2 days
+2024-11-05 05:06:01,283 - INFO - Processing comments for post ID: 1ggt6p0
+2024-11-05 05:06:02,886 - INFO - Total comments added: 7
+2024-11-05 05:08:51,136 - INFO - Configuration loaded successfully
+2024-11-05 05:08:51,136 - INFO - Reddit instance initialized successfully
+2024-11-05 05:08:51,137 - INFO - Database connection established at /Users/buddy/Desktop/School/effective-adventure/effective-adventure/db/WGU_Reddit.db
+2024-11-05 05:08:51,137 - INFO - Fetching comments from the last 7 days
+2024-11-05 05:08:51,137 - INFO - Processing comments for post ID: 1ggt6p0
+2024-11-05 05:08:52,888 - INFO - Total comments added: 300
+2024-11-05 05:34:30,953 - ERROR - Failed to load configuration: [Errno 2] No such file or directory: '/Users/buddy/Desktop/School/effective-adventure/effective-adventure/scripts/config/config.py'
+2024-11-05 05:34:30,953 - ERROR - Application failed: [Errno 2] No such file or directory: '/Users/buddy/Desktop/School/effective-adventure/effective-adventure/scripts/config/config.py'
+2024-11-05 05:38:28,752 - ERROR - Failed to load configuration: [Errno 2] No such file or directory: '/Users/buddy/Desktop/School/effective-adventure/effective-adventure/scripts/config/config.py'
+2024-11-05 05:38:28,752 - ERROR - Application failed: [Errno 2] No such file or directory: '/Users/buddy/Desktop/School/effective-adventure/effective-adventure/scripts/config/config.py'
+2024-11-05 05:41:25,536 - INFO - Fetching comments from posts made in the last 1 day(s)
+2024-11-05 05:41:27,345 - INFO - Processed 0 comments from post 1gk3u59
+2024-11-05 05:41:29,507 - INFO - Processed 0 comments from post 1gk3u4y
+2024-11-05 05:41:31,667 - INFO - Processed 0 comments from post 1gk3u4n
+2024-11-05 05:41:33,821 - INFO - Processed 0 comments from post 1gk3u4j
+2024-11-05 05:41:35,969 - INFO - Processed 0 comments from post 1gk3u4i
+2024-11-05 05:41:40,130 - INFO - Processed 1 comments from post 1gk3u4g
+2024-11-05 05:41:44,286 - INFO - Processed 1 comments from post 1gk3u4e
+2024-11-05 05:41:46,439 - INFO - Processed 0 comments from post 1gk3u4b
+2024-11-05 05:41:48,611 - INFO - Processed 0 comments from post 1gk3u4a
+2024-11-05 05:41:50,767 - INFO - Processed 0 comments from post 1gk3u47
+2024-11-05 05:41:52,927 - INFO - Processed 0 comments from post 1gk3u44
+2024-11-05 05:41:55,088 - INFO - Processed 0 comments from post 1gk3u43
+2024-11-05 05:41:57,244 - INFO - Processed 0 comments from post 1gk3u41
+2024-11-05 05:41:59,424 - INFO - Processed 0 comments from post 1gk3u40
+2024-11-05 05:42:01,576 - INFO - Processed 0 comments from post 1gk3u3z
+2024-11-05 05:42:05,785 - INFO - Processed 1 comments from post 1gk3u3v
+2024-11-05 05:42:07,944 - INFO - Processed 0 comments from post 1gk3u3u
+2024-11-05 05:42:10,101 - INFO - Processed 0 comments from post 1gk3u3r
+2024-11-05 05:42:12,261 - INFO - Processed 0 comments from post 1gk3u3q
+2024-11-05 05:42:16,437 - INFO - Processed 1 comments from post 1gk3u3o
+2024-11-05 05:42:18,649 - INFO - Processed 0 comments from post 1gk3u3n
+2024-11-05 05:42:20,796 - INFO - Processed 0 comments from post 1gk3u3l
+2024-11-05 05:42:23,757 - INFO - Processed 0 comments from post 1gk3u3i
+2024-11-05 05:42:25,912 - INFO - Processed 0 comments from post 1gk3u3g
+2024-11-05 05:42:28,069 - INFO - Processed 0 comments from post 1gk3u3f
+2024-11-05 05:42:30,334 - INFO - Processed 0 comments from post 1gk3u3e
+2024-11-05 05:42:34,528 - INFO - Processed 1 comments from post 1gk3u3d
+2024-11-05 05:42:36,751 - INFO - Processed 0 comments from post 1gk3u3b
+2024-11-05 05:42:38,910 - INFO - Processed 0 comments from post 1gk3u39
+2024-11-05 05:42:41,063 - INFO - Processed 0 comments from post 1gk3u38
+2024-11-05 05:42:43,225 - INFO - Processed 0 comments from post 1gk3u34
+2024-11-05 05:42:45,406 - INFO - Processed 0 comments from post 1gk3u30
+2024-11-05 05:42:47,569 - INFO - Processed 0 comments from post 1gk3u2u
+2024-11-05 05:42:49,723 - INFO - Processed 0 comments from post 1gk3u2j
+2024-11-05 05:42:51,867 - INFO - Processed 0 comments from post 1gk3u2f
+2024-11-05 05:42:54,047 - INFO - Processed 0 comments from post 1gk3u2e
+2024-11-05 05:42:56,221 - INFO - Processed 0 comments from post 1gk3u2c
+2024-11-05 05:42:58,380 - INFO - Processed 0 comments from post 1gk3u26
+2024-11-05 05:43:00,546 - INFO - Processed 0 comments from post 1gk3u23
+2024-11-05 05:43:02,721 - INFO - Processed 0 comments from post 1gk3u24
+2024-11-05 05:43:04,890 - INFO - Processed 0 comments from post 1gk3u1z
+2024-11-05 05:43:07,078 - INFO - Processed 0 comments from post 1gk3u1x
+2024-11-05 05:43:11,296 - INFO - Processed 1 comments from post 1gk3u1u
+2024-11-05 05:43:15,478 - INFO - Processed 1 comments from post 1gk3u1p
+2024-11-05 05:43:17,649 - INFO - Processed 0 comments from post 1gk3u1k
+2024-11-05 05:43:19,812 - INFO - Processed 0 comments from post 1gk3u1h
+2024-11-05 05:43:22,157 - INFO - Processed 0 comments from post 1gk3u1f
+2024-11-05 05:43:24,332 - INFO - Processed 0 comments from post 1gk3u1b
+2024-11-05 05:43:26,508 - INFO - Processed 0 comments from post 1gk3u18
+2024-11-05 05:43:28,716 - INFO - Processed 0 comments from post 1gk3u13
+2024-11-05 05:43:30,897 - INFO - Processed 0 comments from post 1gk3u12
+2024-11-05 05:43:33,082 - INFO - Processed 0 comments from post 1gk3u0y
+2024-11-05 05:43:35,241 - INFO - Processed 0 comments from post 1gk3u0x
+2024-11-05 05:43:37,406 - INFO - Processed 0 comments from post 1gk3u0v
+2024-11-05 05:43:41,579 - INFO - Processed 1 comments from post 1gk3u0t
+2024-11-05 05:43:45,772 - INFO - Processed 1 comments from post 1gk3u0s
+2024-11-05 05:43:47,949 - INFO - Processed 0 comments from post 1gk3u0q
+2024-11-05 05:43:50,112 - INFO - Processed 0 comments from post 1gk3u0h
+2024-11-05 05:43:52,302 - INFO - Processed 0 comments from post 1gk3u0g
+2024-11-05 05:43:54,464 - INFO - Processed 0 comments from post 1gk3u0d
+2024-11-05 05:43:58,646 - INFO - Processed 1 comments from post 1gk3u0c
+2024-11-05 05:44:00,808 - INFO - Processed 0 comments from post 1gk3u0b
+2024-11-05 05:44:02,972 - INFO - Processed 0 comments from post 1gk3u08
+2024-11-05 05:44:05,130 - INFO - Processed 0 comments from post 1gk3u05
+2024-11-05 05:44:07,292 - INFO - Processed 0 comments from post 1gk3u04
+2024-11-05 05:44:09,467 - INFO - Processed 0 comments from post 1gk3u00
+2024-11-05 05:44:11,632 - INFO - Processed 0 comments from post 1gk3tzz
+2024-11-05 05:44:13,802 - INFO - Processed 0 comments from post 1gk3tzy
+2024-11-05 05:44:17,971 - INFO - Processed 1 comments from post 1gk3tzu
+2024-11-05 05:44:20,127 - INFO - Processed 0 comments from post 1gk3tzo
+2024-11-05 05:44:22,328 - INFO - Processed 0 comments from post 1gk3tzl
+2024-11-05 05:44:26,492 - INFO - Processed 1 comments from post 1gk3tzi
+2024-11-05 05:44:28,650 - INFO - Processed 0 comments from post 1gk3tzc
+2024-11-05 05:44:30,812 - INFO - Processed 0 comments from post 1gk3tz4
+2024-11-05 05:44:33,011 - INFO - Processed 0 comments from post 1gk3tz3
+2024-11-05 05:44:35,169 - INFO - Processed 0 comments from post 1gk3tz0
+2024-11-05 05:44:37,364 - INFO - Processed 0 comments from post 1gk3tyz
+2024-11-05 05:44:39,513 - INFO - Processed 0 comments from post 1gk3tyy
+2024-11-05 05:44:43,711 - INFO - Processed 1 comments from post 1gk3tyt
+2024-11-05 05:44:45,878 - INFO - Processed 0 comments from post 1gk3tyr
+2024-11-05 05:44:48,046 - INFO - Processed 0 comments from post 1gk3tyq
+2024-11-05 05:44:50,193 - INFO - Processed 0 comments from post 1gk3tyj
+2024-11-05 05:44:54,386 - INFO - Processed 2 comments from post 1gk3tyi
+2024-11-05 05:44:56,536 - INFO - Processed 0 comments from post 1gk3tye
+2024-11-05 05:45:00,705 - INFO - Processed 1 comments from post 1gk3tyc
+2024-11-05 05:45:02,882 - INFO - Processed 0 comments from post 1gk3tyb
+2024-11-05 05:45:05,062 - INFO - Processed 0 comments from post 1gk3ty8
+2024-11-05 05:45:07,232 - INFO - Processed 0 comments from post 1gk3ty7
+2024-11-05 05:45:09,397 - INFO - Processed 0 comments from post 1gk3ty5
+2024-11-05 05:45:11,552 - INFO - Processed 0 comments from post 1gk3ty4
+2024-11-05 05:45:15,720 - INFO - Processed 1 comments from post 1gk3ty0
+2024-11-05 05:45:17,909 - INFO - Processed 0 comments from post 1gk3txx
+2024-11-05 05:45:20,064 - INFO - Processed 0 comments from post 1gk3txv
+2024-11-05 05:45:22,231 - INFO - Processed 0 comments from post 1gk3txu
+2024-11-05 05:45:24,390 - INFO - Processed 0 comments from post 1gk3txt
+2024-11-05 05:45:26,560 - INFO - Processed 0 comments from post 1gk3txs
+2024-11-05 05:45:28,728 - INFO - Processed 0 comments from post 1gk3txr
+2024-11-05 05:45:30,920 - INFO - Processed 0 comments from post 1gk3txq
+2024-11-05 05:45:35,076 - INFO - Processed 1 comments from post 1gk3txm
+2024-11-05 05:45:37,261 - INFO - Processed 0 comments from post 1gk3txk
+2024-11-05 05:45:39,405 - INFO - Total comments processed: 18
+2024-11-05 05:49:33,989 - INFO - Fetching comments from posts made in the last 2 day(s)
+2024-11-05 05:49:35,311 - INFO - Processed 0 comments from post 1gk3y8x
+2024-11-05 05:49:36,472 - INFO - Processed 0 comments from post 1gk3y8u
+2024-11-05 05:49:37,679 - INFO - Processed 0 comments from post 1gk3y8s
+2024-11-05 05:49:38,835 - INFO - Processed 0 comments from post 1gk3y8o
+2024-11-05 05:49:39,982 - INFO - Processed 0 comments from post 1gk3y8m
+2024-11-05 05:49:41,132 - INFO - Processed 0 comments from post 1gk3y8f
+2024-11-05 05:49:42,298 - INFO - Processed 0 comments from post 1gk3y8c
+2024-11-05 05:49:43,452 - INFO - Processed 0 comments from post 1gk3y8a
+2024-11-05 05:49:44,613 - INFO - Processed 0 comments from post 1gk3y89
+2024-11-05 05:49:45,778 - INFO - Processed 0 comments from post 1gk3y86
+2024-11-05 05:49:47,953 - INFO - Processed 1 comments from post 1gk3y85
+2024-11-05 05:49:50,118 - INFO - Processed 1 comments from post 1gk3y80
+2024-11-05 05:49:51,270 - INFO - Processed 0 comments from post 1gk3y7y
+2024-11-05 05:49:52,437 - INFO - Processed 0 comments from post 1gk3y7x
+2024-11-05 05:49:54,603 - INFO - Processed 1 comments from post 1gk3y7u
+2024-11-05 05:49:55,754 - INFO - Processed 0 comments from post 1gk3y7s
+2024-11-05 05:49:56,927 - INFO - Processed 0 comments from post 1gk3y7q
+2024-11-05 05:49:58,081 - INFO - Processed 0 comments from post 1gk3y7m
+2024-11-05 05:49:59,240 - INFO - Processed 0 comments from post 1gk3y7l
+2024-11-05 05:50:00,401 - INFO - Processed 0 comments from post 1gk3y7j
+2024-11-05 05:50:01,566 - INFO - Processed 0 comments from post 1gk3y7i
+2024-11-05 05:50:02,728 - INFO - Processed 0 comments from post 1gk3y7g
+2024-11-05 05:50:03,875 - INFO - Processed 0 comments from post 1gk3y7e
+2024-11-05 05:50:06,054 - INFO - Processed 1 comments from post 1gk3y7d
+2024-11-05 05:50:08,225 - INFO - Processed 1 comments from post 1gk3y79
+2024-11-05 05:50:09,383 - INFO - Processed 0 comments from post 1gk3y78
+2024-11-05 05:50:10,561 - INFO - Processed 0 comments from post 1gk3y76
+2024-11-05 05:50:11,718 - INFO - Processed 0 comments from post 1gk3y74
+2024-11-05 05:50:13,898 - INFO - Processed 1 comments from post 1gk3y71
+2024-11-05 05:50:15,058 - INFO - Processed 0 comments from post 1gk3y6z
+2024-11-05 05:50:16,222 - INFO - Processed 0 comments from post 1gk3y6x
+2024-11-05 05:50:17,482 - INFO - Processed 0 comments from post 1gk3y6u
+2024-11-05 05:50:18,645 - INFO - Processed 0 comments from post 1gk3y6p
+2024-11-05 05:50:19,802 - INFO - Processed 0 comments from post 1gk3y6i
+2024-11-05 05:50:20,953 - INFO - Processed 0 comments from post 1gk3y6h
+2024-11-05 05:50:22,138 - INFO - Processed 0 comments from post 1gk3y6g
+2024-11-05 05:50:23,295 - INFO - Processed 0 comments from post 1gk3y6f
+2024-11-05 05:50:24,455 - INFO - Processed 0 comments from post 1gk3y6d
+2024-11-05 05:50:25,620 - INFO - Processed 0 comments from post 1gk3y6a
+2024-11-05 05:50:26,767 - INFO - Processed 0 comments from post 1gk3y69
+2024-11-05 05:50:27,919 - INFO - Processed 0 comments from post 1gk3y68
+2024-11-05 05:50:29,076 - INFO - Processed 0 comments from post 1gk3y67
+2024-11-05 05:50:31,233 - INFO - Processed 1 comments from post 1gk3y62
+2024-11-05 05:50:32,388 - INFO - Processed 0 comments from post 1gk3y61
+2024-11-05 05:50:34,583 - INFO - Processed 1 comments from post 1gk3y5u
+2024-11-05 05:50:35,743 - INFO - Processed 0 comments from post 1gk3y5t
+2024-11-05 05:50:36,907 - INFO - Processed 0 comments from post 1gk3y5s
+2024-11-05 05:50:38,070 - INFO - Processed 0 comments from post 1gk3y5r
+2024-11-05 05:50:39,225 - INFO - Processed 0 comments from post 1gk3y5q
+2024-11-05 05:50:41,388 - INFO - Processed 1 comments from post 1gk3y5p
+2024-11-05 05:50:42,562 - INFO - Processed 0 comments from post 1gk3y5l
+2024-11-05 05:50:43,722 - INFO - Processed 0 comments from post 1gk3y5h
+2024-11-05 05:50:44,885 - INFO - Processed 0 comments from post 1gk3y5g
+2024-11-05 05:50:46,054 - INFO - Processed 0 comments from post 1gk3y5b
+2024-11-05 05:50:47,207 - INFO - Processed 0 comments from post 1gk3y56
+2024-11-05 05:50:48,362 - INFO - Processed 0 comments from post 1gk3y53
+2024-11-05 05:50:49,521 - INFO - Processed 0 comments from post 1gk3y4z
+2024-11-05 05:50:50,693 - INFO - Processed 0 comments from post 1gk3y4u
+2024-11-05 05:50:51,897 - INFO - Processed 0 comments from post 1gk3y4q
+2024-11-05 05:50:53,057 - INFO - Processed 0 comments from post 1gk3y4l
+2024-11-05 05:50:54,223 - INFO - Processed 0 comments from post 1gk3y4j
+2024-11-05 05:50:55,382 - INFO - Processed 0 comments from post 1gk3y4f
+2024-11-05 05:50:57,609 - INFO - Processed 1 comments from post 1gk3y4e
+2024-11-05 05:50:58,761 - INFO - Processed 0 comments from post 1gk3y4d
+2024-11-05 05:50:59,939 - INFO - Processed 0 comments from post 1gk3y4c
+2024-11-05 05:51:02,120 - INFO - Processed 1 comments from post 1gk3y4b
+2024-11-05 05:51:03,279 - INFO - Processed 0 comments from post 1gk3y4a
+2024-11-05 05:51:04,429 - INFO - Processed 0 comments from post 1gk3y48
+2024-11-05 05:51:06,612 - INFO - Processed 2 comments from post 1gk3y47
+2024-11-05 05:51:08,804 - INFO - Processed 3 comments from post 1gk3y45
+2024-11-05 05:51:09,959 - INFO - Processed 0 comments from post 1gk3y43
+2024-11-05 05:51:12,155 - INFO - Processed 6 comments from post 1gk3y42
+2024-11-05 05:51:13,353 - INFO - Processed 0 comments from post 1gk3y41
+2024-11-05 05:51:15,520 - INFO - Processed 1 comments from post 1gk3y40
+2024-11-05 05:51:16,676 - INFO - Processed 0 comments from post 1gk3y3y
+2024-11-05 05:51:17,833 - INFO - Processed 0 comments from post 1gk3y3x
+2024-11-05 05:51:19,001 - INFO - Processed 0 comments from post 1gk3y3w
+2024-11-05 05:51:20,216 - INFO - Processed 0 comments from post 1gk3y3v
+2024-11-05 05:51:21,380 - INFO - Processed 0 comments from post 1gk3y3r
+2024-11-05 05:51:22,545 - INFO - Processed 0 comments from post 1gk3y3q
+2024-11-05 05:51:23,705 - INFO - Processed 0 comments from post 1gk3y3p
+2024-11-05 05:51:24,872 - INFO - Processed 0 comments from post 1gk3y3o
+2024-11-05 05:51:27,048 - INFO - Processed 1 comments from post 1gk3y3n
+2024-11-05 05:51:28,211 - INFO - Processed 0 comments from post 1gk3y3m
+2024-11-05 05:51:29,381 - INFO - Processed 0 comments from post 1gk3y3l
+2024-11-05 05:51:30,582 - INFO - Processed 0 comments from post 1gk3y3k
+2024-11-05 05:51:32,756 - INFO - Processed 1 comments from post 1gk3y3i
+2024-11-05 05:51:33,939 - INFO - Processed 0 comments from post 1gk3y3g
+2024-11-05 05:51:36,113 - INFO - Processed 1 comments from post 1gk3y3f
+2024-11-05 05:51:37,353 - INFO - Processed 0 comments from post 1gk3y39
+2024-11-05 05:51:38,527 - INFO - Processed 0 comments from post 1gk3y38
+2024-11-05 05:51:39,680 - INFO - Processed 0 comments from post 1gk3y37
+2024-11-05 05:51:41,872 - INFO - Processed 1 comments from post 1gk3y35
+2024-11-05 05:51:43,039 - INFO - Processed 0 comments from post 1gk3y34
+2024-11-05 05:51:45,225 - INFO - Processed 1 comments from post 1gk3y2x
+2024-11-05 05:51:46,379 - INFO - Processed 0 comments from post 1gk3y2t
+2024-11-05 05:51:47,535 - INFO - Processed 0 comments from post 1gk3y2s
+2024-11-05 05:51:48,694 - INFO - Processed 0 comments from post 1gk3y2p
+2024-11-05 05:51:49,861 - INFO - Processed 0 comments from post 1gk3y2n
+2024-11-05 05:51:51,009 - INFO - Processed 0 comments from post 1gk3y2m
+2024-11-05 05:51:52,154 - INFO - Total comments processed: 28
+2024-11-05 06:29:35,791 - INFO - Fetching comments from posts made in the last 7 day(s)
+2024-11-05 06:29:37,882 - INFO - Processed 0 comments from post 1gk4jpg
+2024-11-05 06:29:39,045 - INFO - Processed 0 comments from post 1gk4jpe
+2024-11-05 06:29:40,209 - INFO - Processed 0 comments from post 1gk4jpa
+2024-11-05 06:29:42,378 - INFO - Processed 1 comments from post 1gk4jp4
+2024-11-05 06:29:43,540 - INFO - Processed 0 comments from post 1gk4jp1
+2024-11-05 06:29:44,728 - INFO - Processed 0 comments from post 1gk4joo
+2024-11-05 06:29:46,904 - INFO - Processed 1 comments from post 1gk4jom
+2024-11-05 06:29:48,052 - INFO - Processed 0 comments from post 1gk4jol
+2024-11-05 06:29:49,199 - INFO - Processed 0 comments from post 1gk4joj
+2024-11-05 06:29:50,392 - INFO - Processed 0 comments from post 1gk4joi
+2024-11-05 06:29:51,543 - INFO - Processed 0 comments from post 1gk4joh
+2024-11-05 06:29:52,726 - INFO - Processed 0 comments from post 1gk4jog
+2024-11-05 06:29:54,882 - INFO - Processed 1 comments from post 1gk4jod
+2024-11-05 06:29:56,034 - INFO - Processed 0 comments from post 1gk4jo6
+2024-11-05 06:29:58,198 - INFO - Processed 1 comments from post 1gk4jo1
+2024-11-05 06:30:00,367 - INFO - Processed 1 comments from post 1gk4jnx
+2024-11-05 06:30:01,523 - INFO - Processed 0 comments from post 1gk4jnw
+2024-11-05 06:30:02,672 - INFO - Processed 0 comments from post 1gk4jns
+2024-11-05 06:30:03,910 - INFO - Processed 0 comments from post 1gk4jnt
+2024-11-05 06:30:05,068 - INFO - Processed 0 comments from post 1gk4jnl
+2024-11-05 06:30:06,237 - INFO - Processed 0 comments from post 1gk4jnk
+2024-11-05 06:30:07,402 - INFO - Processed 0 comments from post 1gk4jnj
+2024-11-05 06:30:08,550 - INFO - Processed 0 comments from post 1gk4jnd
+2024-11-05 06:30:10,708 - INFO - Processed 1 comments from post 1gk4jnb
+2024-11-05 06:30:11,892 - INFO - Processed 0 comments from post 1gk4jn9
+2024-11-05 06:30:14,067 - INFO - Processed 1 comments from post 1gk4jn8
+2024-11-05 06:30:15,223 - INFO - Processed 0 comments from post 1gk4jn1
+2024-11-05 06:30:16,394 - INFO - Processed 0 comments from post 1gk4jn0
+2024-11-05 06:30:17,618 - INFO - Processed 0 comments from post 1gk4jmy
+2024-11-05 06:30:18,775 - INFO - Processed 0 comments from post 1gk4jmw
+2024-11-05 06:30:19,974 - INFO - Processed 0 comments from post 1gk4jmu
+2024-11-05 06:30:22,213 - INFO - Processed 1 comments from post 1gk4jms
+2024-11-05 06:30:23,394 - INFO - Processed 0 comments from post 1gk4jmr
+2024-11-05 06:30:24,555 - INFO - Processed 0 comments from post 1gk4jmp
+2024-11-05 06:30:25,746 - INFO - Processed 0 comments from post 1gk4jmo
+2024-11-05 06:30:26,919 - INFO - Processed 0 comments from post 1gk4jmk
+2024-11-05 06:30:29,101 - INFO - Processed 1 comments from post 1gk4jmf
+2024-11-05 06:30:30,262 - INFO - Processed 0 comments from post 1gk4jmb
+2024-11-05 06:30:32,454 - INFO - Processed 1 comments from post 1gk4jm9
+2024-11-05 06:30:33,616 - INFO - Processed 0 comments from post 1gk4jm8
+2024-11-05 06:30:34,783 - INFO - Processed 0 comments from post 1gk4jm7
+2024-11-05 06:30:35,946 - INFO - Processed 0 comments from post 1gk4jm6
+2024-11-05 06:30:37,111 - INFO - Processed 0 comments from post 1gk4jm4
+2024-11-05 06:30:39,290 - INFO - Processed 1 comments from post 1gk4jm2
+2024-11-05 06:30:40,921 - INFO - Processed 0 comments from post 1gk4jm1
+2024-11-05 06:30:42,090 - INFO - Processed 0 comments from post 1gk4jlx
+2024-11-05 06:30:44,274 - INFO - Processed 1 comments from post 1gk4jlw
+2024-11-05 06:30:45,437 - INFO - Processed 0 comments from post 1gk4jlt
+2024-11-05 06:30:47,612 - INFO - Processed 1 comments from post 1gk4jlq
+2024-11-05 06:30:48,801 - INFO - Processed 0 comments from post 1gk4jlp
+2024-11-05 06:30:49,966 - INFO - Processed 0 comments from post 1gk4jlo
+2024-11-05 06:30:51,121 - INFO - Processed 0 comments from post 1gk4jlk
+2024-11-05 06:30:52,304 - INFO - Processed 0 comments from post 1gk4jlj
+2024-11-05 06:30:53,460 - INFO - Processed 0 comments from post 1gk4jli
+2024-11-05 06:30:54,662 - INFO - Processed 0 comments from post 1gk4jlh
+2024-11-05 06:30:56,823 - INFO - Processed 1 comments from post 1gk4jlg
+2024-11-05 06:30:58,038 - INFO - Processed 0 comments from post 1gk4jlf
+2024-11-05 06:30:59,199 - INFO - Processed 0 comments from post 1gk4jle
+2024-11-05 06:31:00,355 - INFO - Processed 0 comments from post 1gk4jlc
+2024-11-05 06:31:01,509 - INFO - Processed 0 comments from post 1gk4jlb
+2024-11-05 06:31:03,707 - INFO - Processed 1 comments from post 1gk4jla
+2024-11-05 06:31:04,866 - INFO - Processed 0 comments from post 1gk4jl5
+2024-11-05 06:31:06,042 - INFO - Processed 0 comments from post 1gk4jl4
+2024-11-05 06:31:08,235 - INFO - Processed 1 comments from post 1gk4jl3
+2024-11-05 06:31:10,446 - INFO - Processed 1 comments from post 1gk4jl2
+2024-11-05 06:31:11,619 - INFO - Processed 0 comments from post 1gk4jkw
+2024-11-05 06:31:13,839 - INFO - Processed 1 comments from post 1gk4jkv
+2024-11-05 06:31:15,001 - INFO - Processed 0 comments from post 1gk4jku
+2024-11-05 06:31:16,164 - INFO - Processed 0 comments from post 1gk4jkt
+2024-11-05 06:31:17,328 - INFO - Processed 0 comments from post 1gk4jkr
+2024-11-05 06:31:18,506 - INFO - Processed 0 comments from post 1gk4jkq
+2024-11-05 06:31:19,675 - INFO - Processed 0 comments from post 1gk4jko
+2024-11-05 06:31:20,831 - INFO - Processed 0 comments from post 1gk4jkj
+2024-11-05 06:31:22,014 - INFO - Processed 0 comments from post 1gk4jkf
+2024-11-05 06:31:23,170 - INFO - Processed 0 comments from post 1gk4jke
+2024-11-05 06:31:25,388 - INFO - Processed 2 comments from post 1gk4jkb
+2024-11-05 06:31:26,555 - INFO - Processed 0 comments from post 1gk4jk9
+2024-11-05 06:31:27,762 - INFO - Processed 0 comments from post 1gk4jk4
+2024-11-05 06:31:28,974 - INFO - Processed 0 comments from post 1gk4jk0
+2024-11-05 06:31:30,131 - INFO - Processed 0 comments from post 1gk4jjz
+2024-11-05 06:31:31,303 - INFO - Processed 0 comments from post 1gk4jjr
+2024-11-05 06:31:32,450 - INFO - Processed 0 comments from post 1gk4jjp
+2024-11-05 06:31:34,915 - INFO - Processed 1 comments from post 1gk4jjm
+2024-11-05 06:31:36,095 - INFO - Processed 0 comments from post 1gk4jjl
+2024-11-05 06:31:37,249 - INFO - Processed 0 comments from post 1gk4jji
+2024-11-05 06:31:38,419 - INFO - Processed 0 comments from post 1gk4jjh
+2024-11-05 06:31:39,590 - INFO - Processed 0 comments from post 1gk4jjg
+2024-11-05 06:31:40,750 - INFO - Processed 0 comments from post 1gk4jjb
+2024-11-05 06:31:41,927 - INFO - Processed 0 comments from post 1gk4jja
+2024-11-05 06:31:43,088 - INFO - Processed 0 comments from post 1gk4jj9
+2024-11-05 06:31:45,288 - INFO - Processed 1 comments from post 1gk4jj4
+2024-11-05 06:31:46,449 - INFO - Processed 0 comments from post 1gk4jj3
+2024-11-05 06:31:47,623 - INFO - Processed 0 comments from post 1gk4jj2
+2024-11-05 06:31:48,797 - INFO - Processed 0 comments from post 1gk4jj0
+2024-11-05 06:31:49,988 - INFO - Processed 0 comments from post 1gk4jiz
+2024-11-05 06:31:52,191 - INFO - Processed 1 comments from post 1gk4jix
+2024-11-05 06:31:53,349 - INFO - Processed 0 comments from post 1gk4jis
+2024-11-05 06:31:54,510 - INFO - Processed 0 comments from post 1gk4jir
+2024-11-05 06:31:55,684 - INFO - Processed 0 comments from post 1gk4jin
+2024-11-05 06:31:56,833 - INFO - Processed 0 comments from post 1gk4jim
+2024-11-05 06:31:57,983 - INFO - Total comments processed: 23
+2024-11-05 06:36:53,398 - INFO - Fetching comments from posts made in the last 1 day(s)
+2024-11-05 06:36:53,398 - ERROR - Error fetching posts: no such table: posts
+2024-11-05 06:42:32,912 - INFO - Fetching comments from posts made in the last 1 day(s)
+2024-11-05 06:42:34,446 - INFO - Processed 3 comments from post 1gjy2f5
+2024-11-05 06:42:36,613 - INFO - Processed 1 comments from post 1gjy1ep
+2024-11-05 06:42:38,796 - INFO - Processed 3 comments from post 1gjxzlj
+2024-11-05 06:42:40,956 - INFO - Processed 1 comments from post 1gjxm0l
+2024-11-05 06:42:43,276 - INFO - Processed 39 comments from post 1gjwkw4
+2024-11-05 06:42:44,436 - INFO - Processed 0 comments from post 1gjw15r
+2024-11-05 06:42:45,593 - INFO - Processed 0 comments from post 1gjvy03
+2024-11-05 06:42:47,787 - INFO - Processed 1 comments from post 1gjvw0x
+2024-11-05 06:42:49,957 - INFO - Processed 1 comments from post 1gjug0y
+2024-11-05 06:42:52,215 - INFO - Processed 20 comments from post 1gjty85
+2024-11-05 06:42:54,397 - INFO - Processed 1 comments from post 1gjtdb6
+2024-11-05 06:42:56,597 - INFO - Processed 5 comments from post 1gjsyz6
+2024-11-05 06:42:58,783 - INFO - Processed 1 comments from post 1gjsvzl
+2024-11-05 06:43:00,987 - INFO - Processed 8 comments from post 1gjsudy
+2024-11-05 06:43:03,513 - INFO - Processed 10 comments from post 1gjsgbx
+2024-11-05 06:43:05,805 - INFO - Processed 12 comments from post 1gjrbza
+2024-11-05 06:43:07,977 - INFO - Processed 1 comments from post 1gjqh62
+2024-11-05 06:43:10,463 - INFO - Processed 64 comments from post 1gjq7zg
+2024-11-05 06:43:12,655 - INFO - Processed 4 comments from post 1gjpyoz
+2024-11-05 06:43:13,809 - INFO - Processed 0 comments from post 1gjpxp7
+2024-11-05 06:43:15,984 - INFO - Processed 3 comments from post 1gjpr87
+2024-11-05 06:43:18,173 - INFO - Processed 5 comments from post 1gjpl25
+2024-11-05 06:43:20,388 - INFO - Processed 5 comments from post 1gjp8pf
+2024-11-05 06:43:21,534 - INFO - Processed 0 comments from post 1gjonyw
+2024-11-05 06:43:23,713 - INFO - Processed 1 comments from post 1gjol0d
+2024-11-05 06:43:25,953 - INFO - Processed 18 comments from post 1gjoews
+2024-11-05 06:43:28,113 - INFO - Processed 1 comments from post 1gjod47
+2024-11-05 06:43:30,282 - INFO - Processed 2 comments from post 1gjnvlj
+2024-11-05 06:43:32,513 - INFO - Processed 3 comments from post 1gjnonl
+2024-11-05 06:43:34,690 - INFO - Processed 1 comments from post 1gjn4q4
+2024-11-05 06:43:36,881 - INFO - Processed 1 comments from post 1gjmxq1
+2024-11-05 06:43:39,079 - INFO - Processed 3 comments from post 1gjmuik
+2024-11-05 06:43:41,260 - INFO - Processed 1 comments from post 1gjmt68
+2024-11-05 06:43:43,742 - INFO - Processed 79 comments from post 1gjmna5
+2024-11-05 06:43:44,894 - INFO - Processed 0 comments from post 1gjlvix
+2024-11-05 06:43:46,090 - INFO - Processed 0 comments from post 1gjlobp
+2024-11-05 06:43:48,258 - INFO - Processed 2 comments from post 1gjl7r2
+2024-11-05 06:43:50,476 - INFO - Processed 9 comments from post 1gjl2rl
+2024-11-05 06:43:52,732 - INFO - Processed 11 comments from post 1gjkk52
+2024-11-05 06:43:53,897 - INFO - Processed 0 comments from post 1gjkh3d
+2024-11-05 06:43:56,084 - INFO - Processed 1 comments from post 1gji856
+2024-11-05 06:43:57,236 - INFO - Processed 0 comments from post 1gjhxfr
+2024-11-05 06:43:58,405 - INFO - Processed 0 comments from post 1gjh4n3
+2024-11-05 06:44:00,580 - INFO - Processed 1 comments from post 1gjgydv
+2024-11-05 06:44:02,837 - INFO - Processed 22 comments from post 1gjfx7r
+2024-11-05 06:44:06,464 - INFO - Processed 123 comments from post 1gjfvl5
+2024-11-05 06:44:08,734 - INFO - Processed 30 comments from post 1gjfkvm
+2024-11-05 06:44:09,894 - INFO - Processed 0 comments from post 1gjfcxl
+2024-11-05 06:44:12,067 - INFO - Processed 1 comments from post 1gjezre
+2024-11-05 06:44:14,296 - INFO - Processed 7 comments from post 1gjdjii
+2024-11-05 06:44:15,455 - INFO - Processed 0 comments from post 1gjd5a4
+2024-11-05 06:44:17,649 - INFO - Processed 7 comments from post 1gjghrk
+2024-11-05 06:44:19,820 - INFO - Processed 2 comments from post 1gjepm4
+2024-11-05 06:44:21,999 - INFO - Processed 1 comments from post 1gjixu5
+2024-11-05 06:44:24,167 - INFO - Processed 1 comments from post 1gjw7l1
+2024-11-05 06:44:25,321 - INFO - Processed 0 comments from post 1gjqbhp
+2024-11-05 06:44:27,503 - INFO - Processed 1 comments from post 1gjjiwe
+2024-11-05 06:44:29,917 - INFO - Processed 49 comments from post 1gjfwfa
+2024-11-05 06:44:32,125 - INFO - Processed 10 comments from post 1gjet2a
+2024-11-05 06:44:34,303 - INFO - Processed 6 comments from post 1gjv7nr
+2024-11-05 06:44:36,721 - INFO - Processed 13 comments from post 1gjpfz2
+2024-11-05 06:44:38,922 - INFO - Processed 3 comments from post 1gjov40
+2024-11-05 06:44:41,099 - INFO - Processed 3 comments from post 1gjnf1e
+2024-11-05 06:44:43,429 - INFO - Processed 25 comments from post 1gjft9h
+2024-11-05 06:44:45,613 - INFO - Processed 1 comments from post 1gjol3b
+2024-11-05 06:44:46,776 - INFO - Processed 0 comments from post 1gjyc4l
+2024-11-05 06:44:48,950 - INFO - Processed 3 comments from post 1gjveka
+2024-11-05 06:44:50,106 - INFO - Processed 0 comments from post 1gjv8zy
+2024-11-05 06:44:52,279 - INFO - Processed 2 comments from post 1gjv3uv
+2024-11-05 06:44:54,460 - INFO - Processed 4 comments from post 1gjtrb7
+2024-11-05 06:44:55,616 - INFO - Processed 0 comments from post 1gjj7k5
+2024-11-05 06:44:57,813 - INFO - Processed 7 comments from post 1gjppol
+2024-11-05 06:45:00,009 - INFO - Processed 4 comments from post 1gjnspt
+2024-11-05 06:45:02,186 - INFO - Processed 2 comments from post 1gjmsvh
+2024-11-05 06:45:04,368 - INFO - Processed 4 comments from post 1gjmodi
+2024-11-05 06:45:06,614 - INFO - Processed 16 comments from post 1gjj798
+2024-11-05 06:45:07,615 - INFO - Total comments processed: 669

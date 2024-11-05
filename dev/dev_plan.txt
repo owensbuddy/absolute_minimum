@@ -1,0 +1,75 @@
+Development Plan
+
+Project Overview
+
+The goal of this project is to create comprehensive dashboards that visualize Reddit data related to your school. Data will be gathered from subreddits, users, posts, and comments, with weekly updates over the last month. The objective is to develop methods for analyzing comment scores relative to post scores and ranking comments meaningfully across different posts and subreddits.
+
+Objectives
+
+	1.	Data Collection Strategy
+	•	Define Date Ranges to Avoid Overlap: Implement dynamic date ranges to avoid duplicate data collection for posts and comments.
+	•	Example: First week, fetch last 7 days; second week, fetch 7-14 days, etc.
+	•	Efficient Fetching: Only retrieve posts and comments from specified date ranges (e.g., 1-2 weeks back) without re-fetching recent data.
+	2.	Data Normalization and Analysis
+	•	Comment Score Comparison:
+	•	Develop methods to compare comment scores relative to post scores.
+	•	Score Normalization:
+	•	Account for variability across subreddit activity and post popularity.
+	3.	Database Enhancement
+	•	Schema Updates:
+	•	Ensure schema supports new calculations and fields for analytics.
+	•	Additional Fields:
+	•	Include fields for normalized scores, z-scores, and percentile ranks.
+	4.	Dashboard Development
+	•	Interactive Visualizations:
+	•	Create dashboards for subreddits, users, posts, and comments, highlighting key metrics.
+	•	Engagement Metrics:
+	•	Show metrics like comment significance, post popularity, and user activity.
+	5.	Tools and Technologies
+	•	Python Libraries:
+	•	Select libraries for data processing, storage, and visualization.
+	•	Dashboard Framework:
+	•	Choose a framework suitable for real-time data representation.
+
+Data Analysis and Metrics
+
+	1.	Normalize Comment Scores Relative to Post Scores
+	•	Comment-to-Post Score Ratio:
+	•	Formula:
+
+\text{Normalized Score} = \frac{\text{Comment Score}}{\text{Post Score} + \epsilon}
+
+	•	Purpose: Measures comment significance relative to the post’s popularity.
+	•	Considerations:
+	•	Use a small constant (\epsilon) to avoid division by zero.
+	•	Handle negative post scores appropriately.
+	•	Z-Score Normalization:
+	•	Formula:
+
+z = \frac{X - \mu}{\sigma}
+
+	•	Variables:
+	•	X: Comment score
+	•	\mu: Mean comment score in subreddit
+	•	\sigma: Standard deviation of comment scores in subreddit
+	•	Purpose: Standardizes scores for fair comparison within subreddits.
+	2.	Standardize Across Subreddits
+	•	Percentile Ranks:
+	•	Purpose: Indicates the standing of a comment within its subreddit.
+	•	Implementation: Calculate percentile ranks for each subreddit’s comment scores.
+	•	Weighted Scores:
+	•	Formula:
+
+\text{Weighted Score} = \alpha \times \text{Normalized Comment Score} + \beta \times \text{Additional Factors}
+
+	•	Purpose: Combines metrics like comment length, author reputation, and sentiment scores into a single rank.
+
+Database Enhancements
+
+	1.	Update Database Schema
+	•	Fields for Analysis:
+	•	Comments Table: Add normalized_score, z_score, percentile_rank.
+	•	Subreddits Table: Include mean and standard deviation fields for comment scores.
+	2.	Create Views for Analysis
+	•	comment_post_view: A view combining comments and posts for analysis.
+	•	subreddit_stats_view: A view for aggregated statistics at the subreddit level.
