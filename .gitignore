@@ -1,0 +1,6 @@
+# Ignore the config directory with sensitive keys
+effective-adventure/config/
+
+# Python virtual environment
+.venv/
+env/
