@@ -1,4 +1,4 @@
 praw
-sqlite3
 matplotlib
 pandas
+ipywidgets

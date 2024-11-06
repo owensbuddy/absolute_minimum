@@ -1,6 +1,5 @@
 /Users/buddy/Desktop/School/effective-adventure/effective-adventure
 config
-	config.py
 	show_files_db.py
 	spider.py
 data
@@ -22,6 +21,7 @@ dev
 	schema.txt
 notebooks
 	data_analysis.ipynb
+	subreddits.ipynb
 scripts
 	db
 		reddit.db
@@ -35,11 +35,11 @@ scripts
 	initialize_database.py
 	update_database.py
 .gitignore
+Data_Explorer.ipynb
 LICENSE
 README.md
 reddit_scraper.log
 requirements.txt
-setup.py
 
 Database Structure:
 Connected to SQLite database at /Users/buddy/Desktop/School/effective-adventure/effective-adventure/db/WGU_Reddit.db
