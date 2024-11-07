@@ -1,5 +1,9 @@
 WGU Reddit Social Media Management Tool
 
+Note: This project is a rough draft and incomplete. 
+
+Please see Recent Posts and subreddits.ipynb to browse data
+
 Project Overview
 
 This tool gathers and analyzes Reddit discussions across 52 WGU-related subreddits, storing data on posts, comments, users, and subreddits for insights into community engagement.

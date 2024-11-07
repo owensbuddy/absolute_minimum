@@ -1,5 +1,6 @@
 /Users/buddy/Desktop/School/effective-adventure/effective-adventure
 config
+	config.py
 	show_files_db.py
 	spider.py
 data
@@ -13,6 +14,8 @@ data
 	recent_comments.json
 db
 	WGU_Reddit.db
+	WGU_Reddit.db-shm
+	WGU_Reddit.db-wal
 	inspect_db.py
 	modify_db.py
 dev
@@ -32,6 +35,7 @@ scripts
 		fetch_new_posts_comments.py
 	fetch_all_comments.py
 	fetch_comments_new.py
+	fetch_subreddit_info.py
 	initialize_database.py
 	update_database.py
 .gitignore
@@ -58,7 +62,7 @@ Columns:
  - num_posts (Type: INTEGER)
 Number of rows: 52
 Sample row:
- - (1, 'WGU', '2se63', 'Western Governors University', 'Place for Western Governors University students, faculty and alumni.', '/r/WGU/', 1301070589.0, 129480, 85, 1306)
+ - (1, 'WGU', '2se63', 'Western Governors University', 'Place for Western Governors University students, faculty and alumni.', '/r/WGU/', 1301070589.0, 129640, 110, 1374)
 
 Table: users
 Columns:

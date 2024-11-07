@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reddit Post Viewer</title>
+  <style>
+    .flex { display: flex; }
+    .items-center { align-items: center; }
+    .justify-between { justify-content: space-between; }
+    .p-2 { padding: 0.5rem; }
+    .text-lg { font-size: 1.125rem; }
+    .font-bold { font-weight: 700; }
+    .text-gray-600 { color: #718096; }
+    .cursor-pointer { cursor: pointer; }
+    .hidden { display: none; }
+    .flex-1 { flex: 1; }
+    .truncate { 
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 500px;
+    }
+  </style>
+</head>
+<body>
+  <div id="post-container" class="p-2 flex items-center justify-between">
+    <div class="flex-1 truncate" title="[title] - r/[subreddit] - [author] ([score] points) - [num_comments] comments">[title] - r/[subreddit] - [author] ([score] points) - [num_comments] comments</div>
+    <div class="cursor-pointer" onclick="toggleComments()">
+      <span id="comments-toggle">▶</span>
+    </div>
+  </div>
+
+  <div id="comments-container" class="hidden p-2">
+    <div id="comments" class="flex flex-col pl-4">
+      <!-- Comment structure goes here -->
+    </div>
+  </div>
+
+  <script>
+    fetch('recent_posts_comments.json')  // Ensure this path is correct based on your file location
+      .then(response => response.json())
+      .then(data => {
+        displayPosts(data);
+      });
+
+    function displayPosts(posts) {
+      const container = document.getElementById('post-container');
+      
+      posts.forEach(post => {
+        // Create a post element
+        const postElement = document.createElement('div');
+        postElement.classList.add('p-2', 'flex', 'items-center', 'justify-between');
+        
+        const titleElement = document.createElement('div');
+        titleElement.classList.add('flex-1', 'truncate');
+        titleElement.title = `${post.title} - r/${post.subreddit} - ${post.author} (${post.score} points) - ${post.num_comments} comments`;
+        titleElement.innerHTML = `<a href="https://www.reddit.com${post.permalink}" target="_blank">${post.title}</a> - r/${post.subreddit} - ${post.author} (${post.score} points) - ${post.num_comments} comments`;
+
+        const toggleElement = document.createElement('div');
+        toggleElement.classList.add('cursor-pointer');
+        toggleElement.textContent = '▶';
+        toggleElement.onclick = () => toggleCommentsForPost(post, postElement);
+
+        postElement.appendChild(titleElement);
+        postElement.appendChild(toggleElement);
+        container.appendChild(postElement);
+
+        // If comments exist, create a container
+        if (post.comments.length > 0) {
+          const commentsContainer = document.createElement('div');
+          commentsContainer.classList.add('hidden', 'p-2');
+          commentsContainer.innerHTML = '<div id="comments" class="flex flex-col pl-4"></div>';
+          postElement.appendChild(commentsContainer);
+          
+          post.comments.forEach(comment => {
+            const commentElement = displayComment(comment);
+            commentsContainer.firstChild.appendChild(commentElement);
+          });
+        }
+      });
+    }
+
+    function toggleCommentsForPost(post, postElement) {
+      const commentsContainer = postElement.querySelector('.hidden');
+      const toggleElement = postElement.querySelector('.cursor-pointer');
+
+      if (commentsContainer.classList.contains('hidden')) {
+        commentsContainer.classList.remove('hidden');
+        toggleElement.textContent = '▼';
+      } else {
+        commentsContainer.classList.add('hidden');
+        toggleElement.textContent = '▶';
+      }
+    }
+
+    function displayComment(comment) {
+      const commentElement = document.createElement('div');
+      commentElement.classList.add('flex', 'items-center', 'mb-2');
+
+      const contentElement = document.createElement('div');
+      contentElement.classList.add('flex-1', 'truncate');
+      contentElement.textContent = `${comment.author} (${comment.upvotes} points) - ${comment.content}`;
+
+      commentElement.appendChild(contentElement);
+      return commentElement;
+    }
+</script>
+</body>
+</html>
